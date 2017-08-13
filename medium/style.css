@@ -1,0 +1,13 @@
+.clearfix {
+  clear:both;
+}
+
+.col-2 {
+  float:left;
+  margin: auto;
+  width: 50%;
+}
+
+.halfPage {
+  width:50%;
+}
