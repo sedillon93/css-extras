@@ -18,11 +18,16 @@
   width:50%;
 }
 
-.user {
+.userImage {
   max-width: 50px;
   border-radius: 100%;
 }
 
 .commentIcon {
   max-width: 25px;
+  float: right;
+}
+
+.byLine {
+  margin: 5px;
 }
