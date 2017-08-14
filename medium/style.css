@@ -1,23 +1,43 @@
 body {
     margin-left: 40px;
+    box-sizing: border-box;
 }
 
 .clearfix {
   clear:both;
 }
 
+ul {
+  list-style-type: none;
+  display: inline;
+  margin-bottom: 10px;
+}
+
+li {
+  float: left;
+  text-align: center;
+  width: 9%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray:
+}
+
 .col-2 {
   float:left;
   margin: auto;
   width: 50%;
-  box-sizing: border-box;
 }
 
 .col-3 {
   float: left;
   margin: auto;
   width: 25%;
-  box-sizing: border-box;
 }
 
 .halfPage {
@@ -26,6 +46,11 @@ body {
 
 .story {
   border: 2px;
+  margin-top: 20px;
+}
+
+.storyText {
+  margin: 0px 10px;
 }
 
 .storyImage {
