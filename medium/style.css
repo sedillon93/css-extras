@@ -1,3 +1,7 @@
+body {
+    margin-left: 40px;
+}
+
 .clearfix {
   clear:both;
 }
@@ -6,16 +10,26 @@
   float:left;
   margin: auto;
   width: 50%;
+  box-sizing: border-box;
 }
 
 .col-3 {
   float: left;
   margin: auto;
-  width: 33%;
+  width: 25%;
+  box-sizing: border-box;
 }
 
 .halfPage {
   width:50%;
+}
+
+.story {
+  border: 2px;
+}
+
+.storyImage {
+  max-width: 200px;
 }
 
 .userImage {
@@ -26,6 +40,7 @@
 .commentIcon {
   max-width: 25px;
   float: right;
+  vertical-align: bottom;
 }
 
 .byLine {
