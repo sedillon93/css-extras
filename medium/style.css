@@ -1,6 +1,7 @@
 body {
     margin: 10px 50px;
     box-sizing: border-box;
+    line-height: 1.4;
 }
 
 .clearfix {
@@ -10,8 +11,21 @@ body {
 .mediumLogo, .mediumName {
   float: left;
   overflow: hidden;
-  line-height: 45px;
+  line-height: 22px;
   font-size: 28px;
+}
+
+.mediumName {
+  padding-left: 10px;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
 }
 
 .joinMedium, #write {
@@ -34,7 +48,7 @@ nav {
 
 ul {
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   margin-bottom: 10px;
 }
 
@@ -42,22 +56,14 @@ li {
   float: left;
   text-align: center;
   padding: 10px 20px 18px 0;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.4;
-}
-
-a, a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  color: gray;
-  text-decoration: none;
 }
 
 .main {
   background-image: url("http://cdn.skilledup.com/wp-content/uploads/2015/06/young-black-woman-coder-with-laptop-Feature_1290x688_KL.jpg");
   background-position: center bottom;
+  background-repeat: no-repeat;
   background-size: 100% auto;
   padding: 30px;
 }
