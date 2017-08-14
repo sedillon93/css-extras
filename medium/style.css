@@ -69,17 +69,44 @@ li {
   min-height: 500px;
 }
 
-h2 {
-  font-size: 50px;
-  margin-bottom: 25px;
-}
-
 #slogan {
   margin-bottom: 40px;
   line-height: 1.4;
   color: rgba(0,0,0,.8);
   letter-spacing: -.02em;
+  font-size: 22px;
+}
+
+.button {
   font-size: 20px;
+}
+
+.headline {
+  margin-top: 40px;
+  padding: 10px;
+}
+
+#topStories {
+  float: left;
+  margin: auto;
+  width: auto;
+  font-size: 20px;
+}
+
+#moreLink {
+  float: right;
+  margin: auto;
+  width: auto;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.bottomSection {
+  border-top: 1px solid black;
 }
 
 .col-2 {
