@@ -25,7 +25,8 @@ a {
 }
 
 a:hover {
-  color: gray:
+  color: gray;
+  text-decoration: none;
 }
 
 .col-2 {
