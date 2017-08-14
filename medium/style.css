@@ -115,6 +115,18 @@ h2 {
   width: 50%;
 }
 
+.left {
+  float:left;
+  margin: auto;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  margin: auto;
+  width: 50%;
+}
+
 .col-3 {
   float: left;
   margin: auto;
