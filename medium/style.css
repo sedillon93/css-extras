@@ -66,6 +66,7 @@ li {
   background-repeat: no-repeat;
   background-size: 100% auto;
   padding: 30px;
+  min-height: 500px;
 }
 
 h2 {
@@ -90,11 +91,13 @@ h2 {
 .col-3 {
   float: left;
   margin: auto;
-  width: 25%;
+  width: 33%;
 }
 
-.halfPage {
-  width:50%;
+.col-4 {
+  float: left;
+  margin: auto;
+  width: 25%;
 }
 
 .story {
