@@ -1,5 +1,5 @@
 body {
-    margin-left: 40px;
+    margin: 10px 50px;
     box-sizing: border-box;
 }
 
@@ -7,10 +7,28 @@ body {
   clear:both;
 }
 
-.mediumLogo, .mediumName, .write {
+.mediumLogo, .mediumName {
   float: left;
-  margin: auto;
   overflow: hidden;
+  line-height: 45px;
+}
+
+.joinMedium, #write {
+  float: right;
+}
+
+.joinMedium {
+  color: #1c9963;
+}
+
+#write {
+  margin-left: 20px;
+}
+
+nav {
+  border-top: 1px solid rgba(0,0,0,.05);
+  padding-top: 4px;
+  margin-top: 5px;
 }
 
 ul {
@@ -22,11 +40,12 @@ ul {
 li {
   float: left;
   text-align: center;
-  width: 9%;
-  margin: 0;
+  padding: 10px 20px 18px 0;
+  font-size: 14px;
+  line-height: 1.4;
 }
 
-a {
+a, a:visited {
   text-decoration: none;
 }
 
