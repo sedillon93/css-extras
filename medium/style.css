@@ -11,6 +11,7 @@ body {
   float: left;
   overflow: hidden;
   line-height: 45px;
+  font-size: 28px;
 }
 
 .joinMedium, #write {
@@ -52,6 +53,26 @@ a, a:visited {
 a:hover {
   color: gray;
   text-decoration: none;
+}
+
+.main {
+  background-image: url("http://cdn.skilledup.com/wp-content/uploads/2015/06/young-black-woman-coder-with-laptop-Feature_1290x688_KL.jpg");
+  background-position: center bottom;
+  background-size: 100% auto;
+  padding: 30px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+#slogan {
+  margin-bottom: 40px;
+  line-height: 1.4;
+  color: rgba(0,0,0,.8);
+  letter-spacing: -.02em;
+  font-size: 20px;
 }
 
 .col-2 {
