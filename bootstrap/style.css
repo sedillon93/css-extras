@@ -1,12 +1,25 @@
+body{
+  margin: 0;
+}
+header {
+  background-color: #311B92;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
 #navbar {
   list-style-type: none;
   width: fit-content;
   font-family: sans-serif;
+  overflow: auto;
 }
 .navitem {
   text-align: center;
   width: fit-content;
   float: left;
-  padding: .8em;
+  padding: .7em;
+}
+a {
   text-decoration: none;
+  color: #EDE7F6;
 }
