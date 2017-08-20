@@ -33,9 +33,15 @@ a {
 a:active {
   font-weight: bold;
 }
-button {
+#icons {
   display: inline;
   float: right;
+  overflow: auto;
+}
+#slack {
+  width: 1.5em;
+}
+button {
   color: #ffe484;
   background-color: #563d7c;
   border-color: #ffe484;
