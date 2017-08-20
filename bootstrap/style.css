@@ -2,16 +2,22 @@ body{
   margin: 0;
 }
 header {
-  background-color: #311B92;
+  background-color: #563d7c;
   margin: 0;
   padding: 0;
   overflow: auto;
+}
+#logo {
+  width: 3em;
+  display: inline;
+  float: left;
 }
 #navbar {
   list-style-type: none;
   width: fit-content;
   font-family: sans-serif;
   overflow: auto;
+  display: inline;
 }
 .navitem {
   text-align: center;
@@ -21,5 +27,5 @@ header {
 }
 a {
   text-decoration: none;
-  color: #EDE7F6;
+  color: #cdbfe3;
 }
