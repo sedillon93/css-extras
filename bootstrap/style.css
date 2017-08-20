@@ -63,7 +63,7 @@ button:hover {
 }
 
 #main {
-  padding: 5em;
+  padding: 7em;
   overflow: auto;
 }
 .mainText {
@@ -141,4 +141,14 @@ p {
   margin: 0;
   box-sizing: border-box;
   width: 47%;
+}
+#beta {
+  color: #868e96;
+  margin: 0;
+  font-size: 1em;
+  line-height: 3.5em;
+}
+#bootstrapStack {
+  width: 40%;
+  float: right;
 }
