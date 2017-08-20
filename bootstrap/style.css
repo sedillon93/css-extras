@@ -38,6 +38,12 @@ a:active {
   float: right;
   overflow: auto;
 }
+#github {
+  width: 1.5em;
+}
+#twitter {
+  width: 1.5em;
+}
 #slack {
   width: 1.5em;
 }
