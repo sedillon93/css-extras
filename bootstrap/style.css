@@ -174,7 +174,7 @@ p {
   float: left;
   max-width: 33%;
   min-width: 20%;
-  border: 1px solid;
+  border: 2px solid;
   border-color: #FFF;
   text-align: left;
   min-height: 30em;
@@ -220,6 +220,12 @@ footer {
 }
 #footerNav {
   list-style-type: none;
+  word-spacing: 1em;
+  padding: 0;
+}
+p.signOff {
+  font-size: 1em;
+  color: #868e96;
 }
 .footItem {
   display: inline;
@@ -227,4 +233,8 @@ footer {
 .footLink {
   color: #495057;
   font-weight: 500;
+}
+.footLink:hover {
+  text-decoration: underline;
+  color: #007bff;
 }
