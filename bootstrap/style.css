@@ -163,7 +163,7 @@ p {
   height: 8em;
 }
 .columns {
-  padding: 7em;
+  padding: 0;
   overflow: auto;
   width: 100%;
   box-sizing: border-box;
@@ -199,4 +199,17 @@ h3 {
   color: #FFF;
   background-color: #007bff;
   cursor: pointer;
+}
+footer {
+  margin: 0;
+  background-color: #f2f6f9;
+  padding: 3em;
+}
+#footerNav {
+  list-style-type: none;
+}
+.footItem {
+  display: inline;
+  color: #495057;
+  font-weight: 500;
 }
