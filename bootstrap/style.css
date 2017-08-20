@@ -6,9 +6,10 @@ header {
   margin: 0;
   padding: 0;
   overflow: auto;
+  padding: 1em;
 }
 #logo {
-  width: 3em;
+  width: 2.5em;
   display: inline;
   float: left;
 }
@@ -28,4 +29,7 @@ header {
 a {
   text-decoration: none;
   color: #cdbfe3;
+}
+a:active {
+  font-weight: bold;
 }
