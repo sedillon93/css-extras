@@ -191,6 +191,19 @@ h3 {
   font-weight: 500;
   font-size: 1.75em;
 }
+code {
+  line-height: 3em;
+  font-size: 1.25em;
+  color: #212529;
+}
+#browseImage {
+  width: 20em;
+}
+.separatorLine {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 6rem;
+  margin: 2.5rem 0;
+}
 .columnButton {
   color: #007bff;
   background-color: #FFF;
@@ -210,6 +223,8 @@ footer {
 }
 .footItem {
   display: inline;
+}
+.footLink {
   color: #495057;
   font-weight: 500;
 }
