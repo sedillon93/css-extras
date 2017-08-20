@@ -1,0 +1,12 @@
+#navbar {
+  list-style-type: none;
+  width: fit-content;
+  font-family: sans-serif;
+}
+.navitem {
+  text-align: center;
+  width: fit-content;
+  float: left;
+  padding: .8em;
+  text-decoration: none;
+}
