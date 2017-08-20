@@ -63,11 +63,36 @@ button:hover {
 
 #main {
   padding: 5em;
+  font-family: sans-serif;
+  overflow: auto;
 }
 h1 {
   color: #7952b3;
   font-size: 4em;
   margin-bottom: 1em;
   margin-top: 0;
-  font-family: sans-serif;
+}
+.mainText {
+  width: 50%;
+  float: left;
+}
+#getStarted{
+  border-radius: .3em;
+  text-align: center;
+  border: 1px solid;
+  color: #7952b3;
+  background-color: #FFF;
+  padding: .8em 2em;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+#getStarted:hover {
+  border-radius: .3em;
+  text-align: center;
+  border: 1px solid;
+  color: #FFF;
+  background-color: #7952b3;
+  padding: .8em 2em;
+  font-size: 1.25em;
+  font-weight: 500;
 }
