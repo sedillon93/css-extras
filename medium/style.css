@@ -1,0 +1,174 @@
+body {
+    margin: 10px 50px;
+    padding: 0 100px 50px 100px;
+    box-sizing: border-box;
+    line-height: 1.4;
+}
+
+.clearfix {
+  clear:both;
+}
+
+.mediumLogo, .mediumName {
+  float: left;
+  overflow: hidden;
+  line-height: 22px;
+  font-size: 28px;
+}
+
+.mediumName {
+  padding-left: 10px;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+.joinMedium, #write {
+  float: right;
+}
+
+.joinMedium {
+  color: #1c9963;
+}
+
+#write {
+  margin-left: 20px;
+}
+
+nav {
+  border-top: 1px solid rgba(0,0,0,.05);
+  padding-top: 4px;
+  margin-top: 5px;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+li {
+  float: left;
+  text-align: center;
+  padding: 10px 20px 18px 0;
+  font-size: 18px;
+  line-height: 1.4;
+  width: 8%;
+}
+
+.main {
+  background-image: url("https://images.designtrends.com/wp-content/uploads/2015/11/30162730/White-and-Grey-Plain-Background.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding: 30px;
+  min-height: 500px;
+}
+
+#slogan {
+  margin-bottom: 40px;
+  line-height: 1.4;
+  letter-spacing: -.02em;
+  font-size: 22px;
+}
+
+.button {
+  font-size: 20px;
+}
+
+.headline {
+  margin-top: 40px;
+  padding: 10px;
+}
+
+#topStories {
+  float: left;
+  margin: auto;
+  width: auto;
+  font-size: 20px;
+}
+
+#moreLink {
+  float: right;
+  margin: auto;
+  width: auto;
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
+.bottomSection {
+  border-top: 1px solid black;
+}
+
+.col-2 {
+  float:left;
+  margin: auto;
+  width: 50%;
+}
+
+.left {
+  float:left;
+  margin: auto;
+  width: 50%;
+}
+
+.right {
+  float: right;
+  margin: auto;
+  width: 50%;
+}
+
+.col-3 {
+  float: left;
+  margin: auto;
+  width: 33%;
+}
+
+.col-4 {
+  float: left;
+  margin: auto;
+  width: 25%;
+}
+
+.story {
+  border: 2px;
+  margin-top: 20px;
+}
+
+.blurb{
+  max-height: 50px;
+  overflow: scroll;
+}
+
+.storyText {
+  margin: 0px 10px;
+}
+
+.storyImage {
+  max-width: 200px;
+}
+
+.userImage {
+  max-width: 50px;
+  border-radius: 100%;
+}
+
+.commentIcon {
+  max-width: 25px;
+  float: right;
+  vertical-align: bottom;
+}
+
+.byLine {
+  margin: 5px;
+}
