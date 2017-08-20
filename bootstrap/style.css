@@ -1,3 +1,6 @@
+.clearfix {
+  clear: both;
+}
 body{
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -8,7 +11,9 @@ header {
   padding: 0;
   overflow: auto;
   padding: 1em;
-  position: sticky;
+  /*position: fixed;
+  top: 0;
+  width: 100%;*/
   align-content: center;
 }
 #logo {
@@ -151,4 +156,8 @@ p {
 #bootstrapStack {
   width: 40%;
   float: right;
+}
+.advertisement {
+  width: fit-content;
+  height: 8em;
 }
