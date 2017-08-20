@@ -174,14 +174,17 @@ p {
   min-width: 20%;
   border: 1px solid;
   border-color: #FFF;
-  text-align: center;
+  text-align: left;
+  min-height: 30em;
 }
 .detailImage {
-  width: 1.5em;
-  float: left; 
+  width: 2em;
+  color: #007bff;
+  margin-bottom: .5em;
+  align-content:
 }
 h3 {
-  margin-bottom: .5em;
+  margin: 0 0 .5em 0;
   font-weight: 500;
   font-size: 1.75em;
 }
