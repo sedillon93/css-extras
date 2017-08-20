@@ -1,5 +1,6 @@
 body{
   margin: 0;
+  font-family: 'Roboto', sans-serif;
 }
 header {
   background-color: #563d7c;
@@ -63,18 +64,27 @@ button:hover {
 
 #main {
   padding: 5em;
-  font-family: sans-serif;
   overflow: auto;
-}
-h1 {
-  color: #7952b3;
-  font-size: 4em;
-  margin-bottom: 1em;
-  margin-top: 0;
 }
 .mainText {
   width: 50%;
   float: left;
+}
+h1 {
+  color: #7952b3;
+  font-size: 4em;
+  margin-bottom: .25em;
+  margin-top: 0;
+  line-height: 1;
+  font-weight: 500;
+}
+p {
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #212529;
+  font-size: 1.25em;
+  font-weight: 300;
 }
 #getStarted{
   border-radius: .3em;
