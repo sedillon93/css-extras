@@ -1,2 +1,2 @@
 # css-extras
-CSS practice (replicate screen shot of medium.com)
+CSS practice (replicate screen shot of bootstrap.com)
