@@ -65,6 +65,7 @@ button {
 button:hover {
   color: #2a2730;
   background-color: #ffe484;
+  cursor: pointer;
 }
 
 #main {
@@ -165,6 +166,7 @@ p {
   padding: 7em;
   overflow: auto;
   width: 100%;
+  box-sizing: border-box;
 }
 .col-4 {
   padding: 3em;
@@ -176,6 +178,7 @@ p {
   border-color: #FFF;
   text-align: left;
   min-height: 30em;
+  box-sizing: border-box;
 }
 .detailImage {
   width: 2em;
@@ -187,4 +190,13 @@ h3 {
   margin: 0 0 .5em 0;
   font-weight: 500;
   font-size: 1.75em;
+}
+.columnButton {
+  color: #007bff;
+  background-color: #FFF;
+}
+.columnButton:hover {
+  color: #FFF;
+  background-color: #007bff;
+  cursor: pointer;
 }
