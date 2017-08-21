@@ -1,0 +1,278 @@
+.clearfix {
+  clear: both;
+}
+body{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  background-color: #563d7c;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  padding: 1em;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-content: center;
+}
+#logo {
+  width: 2.5em;
+  display: inline;
+  float: left;
+}
+#navbar {
+  list-style-type: none;
+  width: fit-content;
+  font-family: sans-serif;
+  overflow: auto;
+  display: inline;
+}
+.navitem {
+  text-align: center;
+  width: fit-content;
+  float: left;
+  padding: .7em;
+}
+a {
+  text-decoration: none;
+  color: #cdbfe3;
+}
+a:active {
+  font-weight: bold;
+}
+#rightHeader {
+  display: inline;
+  float: right;
+  overflow: auto;
+  vertical-align: middle;
+  padding-right: 2em;
+}
+.socialIcon {
+  width: 1.5em;
+  padding: 0 .5em;
+  vertical-align: text-top;
+}
+button {
+  color: #ffe484;
+  background-color: #563d7c;
+  border-color: #ffe484;
+  border-radius: .25em;
+  padding: .5em .75em;
+  font-size: 1em;
+  border: 1px solid;
+  margin-left: 1em;
+}
+button:hover {
+  color: #2a2730;
+  background-color: #ffe484;
+  cursor: pointer;
+}
+
+#main {
+  padding: 10em 10em 5em 10em;
+  overflow: auto;
+}
+.mainText {
+  width: 50%;
+  float: left;
+}
+h1 {
+  color: #7952b3;
+  font-size: 4em;
+  margin-bottom: .25em;
+  margin-top: 0;
+  line-height: 1;
+  font-weight: 500;
+}
+.mainParagraph {
+  line-height: 1.5;
+  margin-top: 0;
+  margin-bottom: 1em;
+  color: #212529;
+  font-size: 1.25em;
+  font-weight: 300;
+}
+#getStarted{
+  border-radius: .3em;
+  text-align: center;
+  border: 1px solid;
+  color: #7952b3;
+  background-color: #FFF;
+  padding: .8em 2em;
+  font-size: 1.25em;
+  font-weight: 500;
+  margin-left: 0;
+  margin-right: 1em;
+  box-sizing: border-box;
+  width: 47%;
+}
+#getStarted:hover {
+  border-radius: .3em;
+  text-align: center;
+  border: 1px solid;
+  color: #FFF;
+  background-color: #7952b3;
+  padding: .8em 2em;
+  font-size: 1.25em;
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 0;
+  margin-right: 1em;
+  box-sizing: border-box;
+  width: 47%;
+}
+#mainDownload {
+  color: #868e96;
+  border-color: #868e96;
+  background-color: #FFF;
+  border-radius: .3em;
+  text-align: center;
+  border: 1px solid;  padding: .8em 2em;
+  font-size: 1.25em;
+  font-weight: 500;
+  margin: 0;
+  box-sizing: border-box;
+  width: 47%;
+}
+#mainDownload:hover {
+  border-radius: .3em;
+  text-align: center;
+  border: 1px solid;
+  color: #FFF;
+  background-color: #868e96;
+  padding: .8em 2em;
+  font-size: 1.25em;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 0;
+  box-sizing: border-box;
+  width: 47%;
+}
+#beta {
+  color: #868e96;
+  margin: 0;
+  font-size: 1em;
+  line-height: 3.5em;
+}
+#bootstrapStack {
+  width: 46%;
+  float: right;
+}
+.removeMargin {
+  margin: 0;
+}
+.col-6.removeMargin {
+  margin: 0;
+}
+.advertisement {
+  width: fit-content;
+  max-width: 350px;
+  height: 8em;
+  background-color: #e9ecef;
+  overflow: auto;
+  padding: 1em;
+}
+#advertImage {
+  width: 150px;
+  height: 100px;
+  padding-right: 1em;
+}
+#advertText {
+  color: #333;
+}
+#advertProvider {
+  color: #777;
+}
+.columns {
+  padding: 0;
+  overflow: auto;
+  width: 100%;
+  box-sizing: border-box;
+  height: 550px;
+}
+.col-4 {
+  padding: 3em;
+  background-color: #f8f9fa;
+  float: left;
+  max-width: 33%;
+  min-width: 20%;
+  height: 100%;
+  border: 2px solid;
+  border-color: #FFF;
+  text-align: left;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+.col-6 {
+  width: 50%;
+  float: left;
+}
+.detailImage {
+  width: 2em;
+  color: #007bff;
+  margin-bottom: .5em;
+  align-content:
+}
+h3 {
+  margin: 0 0 .5em 0;
+  font-weight: 600;
+  font-size: 1.75em;
+}
+p {
+  font-size: 1em;
+}
+code {
+  line-height: 3em;
+  font-size: 1.25em;
+  color: #212529;
+}
+.title {
+  color: #212529;
+  font-size: 1.5em;
+  margin-bottom: .5em;
+}
+#browseImage {
+  width: 100%;
+}
+.separatorLine {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 6rem;
+  margin: 2.5rem 0;
+}
+.columnButton {
+  color: #007bff;
+  background-color: #FFF;
+}
+.columnButton:hover {
+  color: #FFF;
+  background-color: #007bff;
+  cursor: pointer;
+}
+footer {
+  margin: 0;
+  background-color: #f2f6f9;
+  padding: 3em;
+}
+#footerNav {
+  list-style-type: none;
+  word-spacing: 1em;
+  padding: 0;
+}
+p.signOff {
+  font-size: .9em;
+  color: #868e96;
+  line-height: 1;
+}
+.footItem {
+  display: inline;
+}
+.footLink {
+  color: #495057;
+  font-weight: 500;
+}
+.footLink:hover {
+  text-decoration: underline;
+  color: #007bff;
+}

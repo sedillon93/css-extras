@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Bootstrap - The most popular HTML, CSS, and JS library in the world</title>
+  </head>
+  <body>
+    <header>
+      <img src="https://dabeng.github.io/img/bootstrap.png" id="logo"/>
+      <ul id="navbar">
+        <li class="navitem"><a href="#">Home</a></li>
+        <li class="navitem"><a href="#">Documentation</a></li>
+        <li class="navitem"><a href="#">Examples</a></li>
+        <li class="navitem"><a href="#">Themes</a></li>
+        <li class="navitem"><a href="#">Jobs</a></li>
+        <li class="navitem"><a href="#">Expo</a></li>
+        <li class="navitem"><a href="#">Blog</a></li>
+      </ul>
+      <div id="rightHeader">
+        <a href="#"><img src="https://cdn3.iconfinder.com/data/icons/flat-icons-web/40/GitHub-128.png" class="socialIcon" /></a>
+        <a href="#"><img src="https://cdn.shopify.com/s/files/1/0894/6582/t/5/assets/twitter.png?12959786003549767401" class="socialIcon"/></a>
+        <a href="#"><img src="Blackvariant-Button-Ui-Requests-9-Slack.ico" class="socialIcon"/>
+        <button type="button">Download</button></a>
+      </div>
+    </header>
+    <div id="main">
+      <div class="mainText">
+        <h1>Bootstrap</h1>
+        <p class="mainParagraph">Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
+        <p class="mainParagraph">Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+        <button type="button" id="getStarted">Get Started</button>
+        <button type="button" id="mainDownload">Download</button>
+        <p id="beta">Currently v4.0.0-beta</p>
+      </div>
+      <img src="http://getbootstrap.com/assets/img/bootstrap-stack.png" id="bootstrapStack"/>
+      <div class="clearfix"></div>
+      <div class="advertisement">
+        <img src="http://via.placeholder.com/100x75" id="advertImage" class="col-6"/>
+        <p class="col-6 removeMargin"><a href="#" id="advertText">Sample advertisement text goes here.</a></p>
+        <p class="removeMargin"><a href="#" id="advertProvider">Advertisement provider's name</a></p>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="col-4">
+        <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+        <svg class="detailImage" id="i-import" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <path d="M28 22 L28 30 4 30 4 22 M16 4 L16 24 M8 16 L16 24 24 16" />
+        </svg>
+        <h3>Installation</h3>
+        <p>Include Bootstrap's source Sass and JavaScript files via Bower, Composer, Meteor, or npm. Package managed installs don't include documentation, but do include our build system and readme.</p>
+        <code>npm install bootstrap@4.0.0-beta <br /> gem install bootstrap -v 4.0.0.alpha6 <br /> bower install bootstrap#v4.0.0-beta</code>
+        <div class="separatorLine"></div>
+        <button type="button" class="columnButton">Read installation docs</button>
+      </div>
+      <div class="col-4">
+        <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+        <svg class="detailImage" id="i-download" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <path d="M9 22 C0 23 1 12 9 13 6 2 23 2 22 10 32 7 32 23 23 22 M11 26 L16 30 21 26 M16 16 L16 30" />
+        </svg>
+        <h3>Bootstrap CDN</h3>
+        <p>When you only need to include Bootstrap's compiled CSS or JS, you can use the Bootstrap CDN.</p>
+        <p class="title">CSS only</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <p class="title">JS, Popper, and jQuery</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation.</p>
+        <div class="separatorLine"></div>
+        <button type="button" class="columnButton">Explore the docs</button>
+      </div>
+      <div class="col-4">
+        <!-- Icon by Bytesize https://github.com/danklammer/bytesize-icons -->
+        <svg class="detailImage" id="i-lightning" viewBox="0 0 32 32" width="32" height="32" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <path d="M18 13 L26 2 8 13 14 19 6 30 24 19 Z" />
+        </svg>
+        <h3>Official Themes</h3>
+        <p>Take Bootstrap 4 to the next level with official premium themes—toolkits built on Bootstrap with new components and plugins, docs, and build tools.</p>
+        <img src="http://via.placeholder.com/350x150" id="browseImage"/>
+        <div class="separatorLine"></div>
+        <button type="button" class="columnButton">Browse themes</button>
+      </div>
+    </div>
+    <footer>
+      <ul id="footerNav">
+        <li class="footItem"><a href="#" class="footLink">GitHub</a></li>
+        <li class="footItem"><a href="#" class="footLink">Twitter</a></li>
+        <li class="footItem"><a href="#" class="footLink">Examples</a></li>
+        <li class="footItem"><a href="#" class="footLink">About</a></li>
+      </ul>
+      <p class="signOff">Designed and built with all the love in the world by <a href="#" class="footLink">@mdo</a> and <a href="#" class="footLink">@fat</a>. Maintained by the <a href="#" class="footLink">core team</a> with the help of <a href="#" class="footLink">our contributors</a>.</p> <p class="signOff">Currently v4.0.0-beta. Code licensed MIT, docs CC BY 3.0.</p>
+    </footer>
+  </body>
+</html>
