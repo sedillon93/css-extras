@@ -71,7 +71,7 @@ button:hover {
 }
 
 #main {
-  padding: 10em;
+  padding: 10em 10em 5em 10em;
   overflow: auto;
 }
 .mainText {
@@ -190,6 +190,7 @@ h1 {
   overflow: auto;
   width: 100%;
   box-sizing: border-box;
+  height: 550px;
 }
 .col-4 {
   padding: 3em;
@@ -197,11 +198,12 @@ h1 {
   float: left;
   max-width: 33%;
   min-width: 20%;
+  height: 100%;
   border: 2px solid;
   border-color: #FFF;
   text-align: left;
-  min-height: 30em;
   box-sizing: border-box;
+  overflow: scroll;
 }
 .col-6 {
   width: 50%;
@@ -225,6 +227,11 @@ code {
   line-height: 3em;
   font-size: 1.25em;
   color: #212529;
+}
+.title {
+  color: #212529;
+  font-size: 1.5em;
+  margin-bottom: .5em;
 }
 #browseImage {
   width: 100%;
@@ -254,8 +261,9 @@ footer {
   padding: 0;
 }
 p.signOff {
-  font-size: 1em;
+  font-size: .9em;
   color: #868e96;
+  line-height: 1;
 }
 .footItem {
   display: inline;
