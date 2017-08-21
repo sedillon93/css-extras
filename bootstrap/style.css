@@ -11,9 +11,10 @@ header {
   padding: 0;
   overflow: auto;
   padding: 1em;
-  /*position: fixed;
+  position: fixed;
   top: 0;
-  width: 100%;*/
+  left: 0;
+  width: 100%;
   align-content: center;
 }
 #logo {
@@ -46,6 +47,7 @@ a:active {
   float: right;
   overflow: auto;
   vertical-align: middle;
+  padding-right: 2em;
 }
 .socialIcon {
   width: 1.5em;
@@ -69,7 +71,7 @@ button:hover {
 }
 
 #main {
-  padding: 7em;
+  padding: 10em;
   overflow: auto;
 }
 .mainText {
@@ -84,7 +86,7 @@ h1 {
   line-height: 1;
   font-weight: 500;
 }
-p {
+.mainParagraph {
   line-height: 1.5;
   margin-top: 0;
   margin-bottom: 1em;
@@ -155,12 +157,33 @@ p {
   line-height: 3.5em;
 }
 #bootstrapStack {
-  width: 40%;
+  width: 46%;
   float: right;
+}
+.removeMargin {
+  margin: 0;
+}
+.col-6.removeMargin {
+  margin: 0;
 }
 .advertisement {
   width: fit-content;
+  max-width: 350px;
   height: 8em;
+  background-color: #e9ecef;
+  overflow: auto;
+  padding: 1em;
+}
+#advertImage {
+  width: 150px;
+  height: 100px;
+  padding-right: 1em;
+}
+#advertText {
+  color: #333;
+}
+#advertProvider {
+  color: #777;
 }
 .columns {
   padding: 0;
@@ -180,6 +203,10 @@ p {
   min-height: 30em;
   box-sizing: border-box;
 }
+.col-6 {
+  width: 50%;
+  float: left;
+}
 .detailImage {
   width: 2em;
   color: #007bff;
@@ -188,8 +215,11 @@ p {
 }
 h3 {
   margin: 0 0 .5em 0;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 1.75em;
+}
+p {
+  font-size: 1em;
 }
 code {
   line-height: 3em;
@@ -197,7 +227,7 @@ code {
   color: #212529;
 }
 #browseImage {
-  width: 20em;
+  width: 100%;
 }
 .separatorLine {
   border-top: 1px solid rgba(0, 0, 0, 0.1);

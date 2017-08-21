@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
     <title>Bootstrap - The most popular HTML, CSS, and JS library in the world</title>
   </head>
@@ -28,15 +29,19 @@
     <div id="main">
       <div class="mainText">
         <h1>Bootstrap</h1>
-        <p>Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
-        <p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
+        <p class="mainParagraph">Build responsive, mobile-first projects on the web with the world's most popular front-end component library.</p>
+        <p class="mainParagraph">Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
         <button type="button" id="getStarted">Get Started</button>
         <button type="button" id="mainDownload">Download</button>
         <p id="beta">Currently v4.0.0-beta</p>
       </div>
       <img src="http://getbootstrap.com/assets/img/bootstrap-stack.png" id="bootstrapStack"/>
       <div class="clearfix"></div>
-      <img src="http://via.placeholder.com/350x150mg" class="advertisement" />
+      <div class="advertisement">
+        <img src="http://via.placeholder.com/100x75" id="advertImage" class="col-6"/>
+        <p class="col-6 removeMargin"><a href="#" id="advertText">Sample advertisement text goes here.</a></p>
+        <p class="removeMargin"><a href="#" id="advertProvider">Advertisement provider's name</a></p>
+      </div>
     </div>
     <div class="columns">
       <div class="col-4">
